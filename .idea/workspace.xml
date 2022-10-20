@@ -1,24 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df8c0dab-12f9-49c4-be93-0589db6befc3" name="Changes" comment="">
+    <list default="true" id="df8c0dab-12f9-49c4-be93-0589db6befc3" name="Changes" comment="Реализованы методы">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/weather.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/weather_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weather_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/city.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/backends_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/backends_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/historical_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/historical_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/weathers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/weathers_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/jobs/application_job.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/application_record.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/application_record.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/bundle" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bundle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/rake" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/spring" beforeDir="false" afterPath="$PROJECT_DIR$/bin/spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/boot.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/cors.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/spring.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/spring.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/city.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/city.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +54,13 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,7 +77,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm&quot;: &quot;WSL&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/atix/my_projects/weather_api&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Андрей/RubymineProjects/test&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable&quot;
@@ -184,8 +213,18 @@
       <workItem from="1666107582699" duration="9520000" />
       <workItem from="1666118100971" duration="6547000" />
       <workItem from="1666165174084" duration="5485000" />
-      <workItem from="1666180206114" duration="12494000" />
+      <workItem from="1666180206114" duration="13069000" />
+      <workItem from="1666210295987" duration="1021000" />
+      <workItem from="1666280205147" duration="12347000" />
     </task>
+    <task id="LOCAL-00001" summary="Реализованы методы">
+      <created>1666193235693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666193235693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,5 +240,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Реализованы методы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализованы методы" />
   </component>
 </project>

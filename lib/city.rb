@@ -1,10 +1,11 @@
+# frozen_string_literal: true
+
 require 'net/http'
 require 'uri'
 require 'rexml/document'
 require 'json'
 
 class City
-
   CITY_CODE = 294_021
   URL = 'https://dataservice.accuweather.com'
   KEY = 'W4N1RHYjQihr5CMPWjYJIYImaxKySneA'
@@ -15,8 +16,8 @@ class City
     weather_uri = URI.parse(url)
     response = Net::HTTP.get_response(weather_uri)
     result = JSON.parse(response.body)
-    line = "Current temperature for Moscow is #{ result.first['Temperature']['Metric']['Value']} C"
-    Rails.cache.write("current", line)
+    line = "Current temperature for Moscow is #{result.first['Temperature']['Metric']['Value']} C"
+    Rails.cache.write('current', line)
     line
   end
 
@@ -31,7 +32,7 @@ class City
         temperature_in_c: elem['Temperature']['Metric']['Value']
       }
     end
-    Rails.cache.write("historical", result)
+    Rails.cache.write('historical', result)
     result
   end
 end

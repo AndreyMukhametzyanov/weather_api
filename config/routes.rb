@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   get '/weather/current', to: 'weathers#current'
   get '/weather/by_time/:timestamp', to: 'weathers#by_time'

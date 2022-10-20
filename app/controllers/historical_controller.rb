@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class HistoricalController < ApplicationController
   before_action :set_historical
 
@@ -20,7 +22,7 @@ class HistoricalController < ApplicationController
   private
 
   def set_historical
-    @historical = Rails.cache.read("historical")
+    @historical = Rails.cache.read('historical')
   end
 
   def function(massive, function_name)

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class BackendsController < ApplicationController
   def health
     render json: { status: :ok }
