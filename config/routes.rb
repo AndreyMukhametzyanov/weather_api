@@ -2,7 +2,7 @@
 
 Rails.application.routes.draw do
   get '/weather/current', to: 'weathers#current'
-  get '/weather/by_time/:timestamp', to: 'weathers#by_time'
+  get '/weather/by_time/:timestamp', to: 'weathers#by_time', as: 'weather_by_time'
   get '/weather/historical', to: 'historical#historical'
   get '/weather/historical/max', to: 'historical#max'
   get '/weather/historical/min', to: 'historical#min'

@@ -9,10 +9,10 @@ class WeathersController < ApplicationController
 
   def by_time
     weather_by_timestamp = weather_by_timestamp(params[:timestamp], Rails.cache.read('historical'))
-    if weather_by_timestamp.nil?
-      render json: { status: 'not_found' }, status: :not_found
+    if weather_by_timestamp.empty?
+      render json: { timestamp: 'not found' }, status: :not_found
     else
-      render json: { "temperature by timestamp = #{params[:timestamp]} is": weather_by_timestamp }
+      render json: weather_by_timestamp
     end
   end
 
@@ -29,13 +29,17 @@ class WeathersController < ApplicationController
       massive.each do |el|
         epoch_time << el[:epoch_time]
       end
-      return unless (epoch_time.first..epoch_time.last).include?(timestamp)
+      m = epoch_time.sort
+      if (m.first..m.last).include?(timestamp.to_i)
+        dif = epoch_time.map { |elem| (timestamp.to_i - elem).abs }
+        result = epoch_time[dif.index(dif.min)] # минимальная разница это и есть самый близкий вариант
 
-      dif = epoch_time.map { |elem| (timestamp.to_i - elem).abs }
-      result = epoch_time[dif.index(dif.min)] # минимальная разница это и есть самый близкий вариант
-      find_temperature(result, massive)
+        { 'temperature by timestamp': find_temperature(result, massive) }
+      else
+        {}
+      end
     else
-      'timestamp is not number'
+      { timestamp: 'not number' }
     end
   end
 

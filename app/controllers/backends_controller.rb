@@ -8,6 +8,6 @@ class BackendsController < ApplicationController
   def weather
     City.historical
     City.current
-    render json: { status: 'Weather data is updating' }
+    render json: { status: 'Weather data was updated' }
   end
 end
