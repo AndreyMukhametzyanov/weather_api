@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-end
-=======
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
@@ -15,4 +10,3 @@ Rails.application.routes.draw do
   get '/health', to: 'backends#health'
   get '/weather', to: 'backends#weather'
 end
->>>>>>> develop

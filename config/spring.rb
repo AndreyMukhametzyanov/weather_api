@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-Spring.watch(
-  ".ruby-version",
-  ".rbenv-vars",
-  "tmp/restart.txt",
-  "tmp/caching-dev.txt"
-)
-=======
 # frozen_string_literal: true
 
 Spring.watch(
@@ -21,4 +13,3 @@ Spring.after_fork do
     load "#{path}/ruby-debug-ide/multiprocess/starter.rb"
   end
 end
->>>>>>> develop
