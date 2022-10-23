@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df8c0dab-12f9-49c4-be93-0589db6befc3" name="Changes" comment="final commit" />
+    <list default="true" id="df8c0dab-12f9-49c4-be93-0589db6befc3" name="Changes" comment="add ci">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -309,6 +312,7 @@
       <workItem from="1666429129791" duration="5828000" />
       <workItem from="1666442645815" duration="8906000" />
       <workItem from="1666452853443" duration="3076000" />
+      <workItem from="1666514235714" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="Реализованы методы">
       <created>1666193235693</created>
@@ -338,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666455723015</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add ci">
+      <created>1666514493040</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666514493040</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +371,7 @@
     <MESSAGE value="Доделал методы начал тесты" />
     <MESSAGE value="fix" />
     <MESSAGE value="final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
+    <MESSAGE value="add ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ci" />
   </component>
 </project>
