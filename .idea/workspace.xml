@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df8c0dab-12f9-49c4-be93-0589db6befc3" name="Changes" comment="fix" />
+    <list default="true" id="df8c0dab-12f9-49c4-be93-0589db6befc3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +49,14 @@
       <recent name="\\wsl$\Ubuntu\home\atix\my_projects\weather_api\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.WeathersController#by_time when timestamp is found return found">
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration name="WeathersController#by_time when timestamp is found return found" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="weather_api" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
