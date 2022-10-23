@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df8c0dab-12f9-49c4-be93-0589db6befc3" name="Changes" comment="add ci">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
+    <list default="true" id="df8c0dab-12f9-49c4-be93-0589db6befc3" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -312,7 +311,7 @@
       <workItem from="1666429129791" duration="5828000" />
       <workItem from="1666442645815" duration="8906000" />
       <workItem from="1666452853443" duration="3076000" />
-      <workItem from="1666514235714" duration="253000" />
+      <workItem from="1666514235714" duration="981000" />
     </task>
     <task id="LOCAL-00001" summary="Реализованы методы">
       <created>1666193235693</created>
@@ -349,7 +348,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666514493040</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1666514613194</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666514613194</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix">
+      <created>1666514809072</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666514809072</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,9 +382,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Реализованы методы" />
     <MESSAGE value="Доделал методы начал тесты" />
-    <MESSAGE value="fix" />
     <MESSAGE value="final commit" />
     <MESSAGE value="add ci" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ci" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
