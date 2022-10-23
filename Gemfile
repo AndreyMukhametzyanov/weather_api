@@ -27,9 +27,9 @@ group :development, :test do
 end
 
 group :development do
+  gem 'brakeman'
   gem 'listen', '~> 3.3'
   gem 'spring'
-  gem 'brakeman'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
